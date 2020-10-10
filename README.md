@@ -172,9 +172,6 @@ Recaptcha.with_configuration(site_key: '12345') do
 end
 ```
 
-### Per call
-
-Pass in keys as options at runtime, for code base with multiple reCAPTCHA setups:
 
 ```Ruby
 recaptcha_tags site_key: '6Lc6BAAAAAAAAChqRbQZcn_yyyyyyyyyyyyyyyyy'
